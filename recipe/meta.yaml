@@ -1,5 +1,5 @@
 {% set name = "mu_repo" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 {% set hash_type = "sha256" %}
 {% set hash = "f446e9fd1653e361059d92f775d49e3604f169baff284b76b3d462e58776f006" %}
 package:
