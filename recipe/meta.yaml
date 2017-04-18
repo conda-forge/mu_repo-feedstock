@@ -1,14 +1,14 @@
 {% set name = "mu_repo" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 {% set hash_type = "sha256" %}
-{% set hash = "f446e9fd1653e361059d92f775d49e3604f169baff284b76b3d462e58776f006" %}
+{% set hash = "f6be0e3a12e5ac7f34d0715eceb929e0076150ed49e5ecb8c506e3d713a7b6f4" %}
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.zip
-  url: https://pypi.io/packages/source/m/{{ name }}/{{ name }}-{{ version }}.zip
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/m/{{ name }}/{{ name }}-{{ version }}.tar.gz
   {{ hash_type }}: {{ hash }}
 
 build:
