@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.zip
-  url: https://pypi.io/packages/source/m/{{ name }}/{{ name }}-{{ version }}.zip
+  url: https://pypi.io/packages/source/m/{{ name }}/{{ name }}-{{ version }}.tar.gz
   {{ hash_type }}: {{ hash }}
 
 build:
