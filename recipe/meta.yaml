@@ -1,6 +1,6 @@
 {% set name = "mu_repo" %}
-{% set version = "1.8.1" %}
-{% set hash = "1eb67031ff9d697adce375b122e0a76beb675c5ee6dfcabc848e78bdcfb4ed3d" %}
+{% set version = "1.8.2" %}
+{% set hash = "1394e8fa05eb23efb5b1cf54660470aba6f443a35719082595d8a8b9d39b3592" %}
 package:
   name: {{ name }}
   version: {{ version }}
