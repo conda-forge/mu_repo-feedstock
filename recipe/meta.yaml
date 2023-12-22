@@ -1,6 +1,6 @@
 {% set name = "mu_repo" %}
-{% set version = "1.8.2" %}
-{% set hash = "1394e8fa05eb23efb5b1cf54660470aba6f443a35719082595d8a8b9d39b3592" %}
+{% set version = "1.9.0" %}
+{% set hash = "f557e46e35a6dd8e1a8735c2a74ea1e60e9280040abc22a472e88eff0d23c5ca" %}
 package:
   name: {{ name }}
   version: {{ version }}
@@ -37,7 +37,7 @@ about:
   home: http://fabioz.github.io/mu-repo
   license: GPL-3.0-or-later
   license_file: LICENSE
-  summary: Tool to work with multiple git repositories  
+  summary: Tool to work with multiple git repositories
 
 extra:
   recipe-maintainers:
